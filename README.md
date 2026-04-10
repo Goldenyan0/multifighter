@@ -6,6 +6,10 @@ Multifighter est un jeu de combat en 2D développé en Python avec la bibliothè
 
 Initialement, plusieurs idées ont été envisagées (inspirations type Bomberman et Archero), avant de converger vers un jeu de combat multijoueur local.
 
+📄 Rapport de projet
+
+👉 https://docs.google.com/document/d/1jaGiisIGufb-OoJfOKCOwXFJQ04h2jCh/edit?usp=sharing&ouid=101713660936447323951&rtpof=true&sd=true
+
 🎯 Concept
 Jeu 1v1 en local (même clavier)
 Chaque joueur contrôle un personnage avec des capacités spécifiques
