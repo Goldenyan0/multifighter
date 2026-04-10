@@ -1,13 +1,8 @@
 🎮 Multifighter
-👥 Équipe
-Yanis POULAIN
-Mattéo JOUBLE
-Louis LEBERT
+
 📌 Présentation du projet
 
 Multifighter est un jeu de combat en 2D développé en Python avec la bibliothèque Pygame.
-
-Le projet a été réalisé dans le cadre d’un travail scolaire avec pour objectif de créer un jeu vidéo en équipe en utilisant les compétences acquises durant l’année.
 
 Initialement, plusieurs idées ont été envisagées (inspirations type Bomberman et Archero), avant de converger vers un jeu de combat multijoueur local.
 
