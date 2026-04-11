@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # 🎮 Multifighter
@@ -42,16 +41,12 @@ Initialement inspiré de projets type *Bomberman* et *Archero*, le concept a év
 | ⚙️ OPTIONS | Paramètres |
 | ❌ QUITTER | Fermer le jeu |
 
----
-
 ### ⚔️ Système de jeu
 
 - Sélection de personnages *(partiellement implémentée)*
 - Combat en **temps réel**
 - **Barre de vie** pour chaque joueur
 - Système de **victoire**
-
----
 
 ### 🎮 Contrôles
 
@@ -79,10 +74,7 @@ Initialement inspiré de projets type *Bomberman* et *Archero*, le concept a év
 ## 🧠 Choix techniques
 
 - Utilisation de **Python** (langage maîtrisé)
-- Appui sur des **tutoriels Pygame** pour :
-  - Animations
-  - Hitbox
-  - Gestion de la vie
+- Appui sur des **tutoriels Pygame** pour les animations, hitbox et gestion de la vie
 - Inspirations graphiques : *Street Fighter*, *Dragon Ball Z: Extreme Butōden*
 - Travail avec **maquettes** et documents préparatoires
 
@@ -92,16 +84,14 @@ Initialement inspiré de projets type *Bomberman* et *Archero*, le concept a év
 
 ```
 multifighter/
-│── main.py               # Point d'entrée – menu principal
-│── button.py             # Classe Button – interactions UI
-│── fighter.py            # Classe Fighter – logique des personnages
+│── main.py          # Point d'entrée – menu principal
+│── button.py        # Classe Button – interactions UI
+│── fighter.py       # Classe Fighter – logique des personnages
 │── assets/
-│   ├── images/           # Sprites et animations
-│   ├── audio/            # Musiques et effets sonores
-│   └── backgrounds/      # Fonds de scène
+│   ├── images/      # Sprites et animations
+│   ├── audio/       # Musiques et effets sonores
+│   └── backgrounds/ # Fonds de scène
 ```
-
----
 
 ### 🔧 Classe `Button`
 
@@ -111,8 +101,6 @@ multifighter/
 | `update()` | Affichage |
 | `checkForInput()` | Détection du clic |
 | `changeColor()` | Effet hover |
-
----
 
 ### 🥊 Classe `Fighter`
 
@@ -138,7 +126,7 @@ multifighter/
 
 ## ▶️ Installation & Lancement
 
-**1. Prérequis**
+**1. Installer la dépendance**
 
 ```bash
 pip install pygame
@@ -178,8 +166,7 @@ python main.py
 - [ ] Ajouter des attaques spéciales
 - [ ] Effets visuels avancés
 - [ ] Menu options fonctionnel *(résolution, musique, thème)*
-- [ ] Amélioration des graphismes
-- [ ] Meilleure ergonomie des contrôles
+- [ ] Amélioration des graphismes et de l'ergonomie
 
 ---
 
@@ -207,4 +194,3 @@ python main.py
   <i>Projet scolaire – Jeu de combat 2D local</i><br/>
   <i>Python · Pygame · Photoshop</i>
 </div>
-```
